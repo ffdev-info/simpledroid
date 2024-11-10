@@ -30,7 +30,7 @@ repos:
   rev: v2.3.0
   hooks:
     - id: codespell
-      args: ["--skip=*wikidata-*,*DROID_SignatureFile*"]
+      args: ["--skip=*pronom/*,*DROID_SignatureFile*"]
 - repo: local
   hooks:
     - id: pylint
