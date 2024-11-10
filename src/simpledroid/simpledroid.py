@@ -71,7 +71,7 @@ class ExternalSignature:
 class ByteSequence:
     id: str
     pos: str
-    off: str
+    min_off: str
     max_off: str
     endian: str
     value: str
@@ -161,7 +161,7 @@ def create_one_to_many_byte_sequence(byte_sequences: list[ByteSequence]):
     for item in byte_sequences:
         byte_sequence = f"""
 {byte_sequence.strip()}
-    <ByteSequence Reference=\"{item.pos}\" Sequence=\"{item.value}\" Offset=\"{item.off}\"/>
+    <ByteSequence Reference=\"{item.pos}\" Sequence=\"{item.value}\" MinOffset=\"{item.min_off}\" MaxOffset=\"{item.max_off}\"/>
         """
     return byte_sequence.strip()
 
@@ -397,7 +397,7 @@ def get_bytes(byte_sequences: xml.dom.minicompat.NodeList):
             pos_type = EOF
         else:
             pos_type = ""
-        off = _get_node_value("Offset", byte_sequence)
+        min_off = _get_node_value("Offset", byte_sequence)
         max_off = _get_node_value("MaxOffset", byte_sequence)
         _ = _get_node_value("IndirectOffsetLocation", byte_sequence)
         _ = _get_node_value("IndirectOffsetLength", byte_sequence)
@@ -423,7 +423,7 @@ def get_bytes(byte_sequences: xml.dom.minicompat.NodeList):
             ByteSequence(
                 id=seq_id,
                 pos=pos_type,
-                off=off,
+                min_off=min_off,
                 max_off=max_off,
                 endian=endian,
                 value=seq_value,
