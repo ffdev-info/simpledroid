@@ -1,0 +1,8 @@
+venv/*
+test.xml
+DROID_*
+__pycache*
+dist/*
+src/simpledroid.egg-info/*
+sigdev/*
+NOTES
