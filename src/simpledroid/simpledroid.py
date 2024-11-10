@@ -148,7 +148,7 @@ def create_many_to_one_byte_sequence(internal_signatures: list[InternalSignature
         id_ = internal.id
         bs = create_one_to_many_byte_sequence(internal.byte_sequences)
         internal_signature = f"""
-<InternalSignature ID=\"{id_}\" Specificity=\"Specific\">
+{internal_signature}<InternalSignature ID=\"{id_}\" Specificity=\"Specific\">
     {bs}
 </InternalSignature>
         """
@@ -479,10 +479,10 @@ async def process_pronom(report_list: list, filename: str):
         external_signatures = get_external(external_signature_elements)
         internal_signature_elements = dom.getElementsByTagName("InternalSignature")
         internal_signatures = get_internal(internal_signature_elements)
-        if not external_signatures and not internal_signatures:
-            continue
         identifier_elements = dom.getElementsByTagName("FileFormatIdentifier")
         puid, mime = get_identifiers(identifier_elements)
+        if not external_signatures and not internal_signatures:
+            continue
         format_types = _get_node_value("FormatTypes", dom)
         related_formats = dom.getElementsByTagName("RelatedFormat")
         priorities = get_priorities(related_formats)
