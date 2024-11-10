@@ -46,7 +46,7 @@
         <SignatureID>560</SignatureID>
         <SignatureName>Microsoft Visual FoxPro Report</SignatureName>
         <SignatureNote>Header sequence: Version number, Date of last update MMDD, character field 'PLATFORM' followed by character field 'UNIQUE ID', and later character field 'OBJTYPE'
-Signature developed utilising collection of frx files obtained from Fox Pro and Visual Fox Pro Databases, and from details of internal structure of file available at: 
+Signature developed utilising collection of frx files obtained from Fox Pro and Visual Fox Pro Databases, and from details of internal structure of file available at:
 http://www.mattslay.com/pages/FoxPro-Report-FRX-Structure.html</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>691</ByteSequenceID>

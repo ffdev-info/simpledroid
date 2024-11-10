@@ -13,7 +13,7 @@
       <FormatTypes>Text (Mark-up)</FormatTypes>
       <FormatDisclosure>
       </FormatDisclosure>
-      <FormatDescription>Adobe Content Server Message files are used to manage and download digital content, mostly ebooks, via Adobe Digital Editions. 
+      <FormatDescription>Adobe Content Server Message files are used to manage and download digital content, mostly ebooks, via Adobe Digital Editions.
 The .acsm file is essentially a 'key' to allow the download of purchased content.</FormatDescription>
       <BinaryFileFormat>
       </BinaryFileFormat>
@@ -66,7 +66,7 @@ The .acsm file is essentially a 'key' to allow the download of purchased content
         <SignatureID>1230</SignatureID>
         <SignatureName>Adobe Content Server Message</SignatureName>
         <SignatureNote>We're seeking a sequence of Mark Up tags:
-&lt;fulfillmentToken fulfillmentType {5-64} xmlns="http://ns.adobe.com/adept" {3-64} &lt;distributor {3-128} &lt;operatorURL {3-128} 
+&lt;fulfillmentToken fulfillmentType {5-64} xmlns="http://ns.adobe.com/adept" {3-64} &lt;distributor {3-128} &lt;operatorURL {3-128}
 
 &lt;transaction {3-64} &lt;expiration {3-64} &lt;resourceItemInfo {3-512} &lt;metadata {16-2048} &lt;licenseToken</SignatureNote>
         <ByteSequence>

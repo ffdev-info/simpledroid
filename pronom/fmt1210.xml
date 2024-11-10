@@ -45,7 +45,7 @@
       <InternalSignature>
         <SignatureID>1588</SignatureID>
         <SignatureName>Wavefront OBJ Polygonal Geometry</SignatureName>
-        <SignatureNote>BOF:0-1024 (can be unlimited preamble, but we want to anchor near the beginning of the file for most cases). 
+        <SignatureNote>BOF:0-1024 (can be unlimited preamble, but we want to anchor near the beginning of the file for most cases).
 Must have vertices:
 v &lt;space&gt; 3 x space separated floating point values that can have a negative value or not representing x, y, z. w is optional, line ending.
 Later, the vertices must have a face:

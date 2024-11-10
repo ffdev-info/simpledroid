@@ -51,7 +51,7 @@ https://www.dicomstandard.org/</FormatNote>
       <InternalSignature>
         <SignatureID>915</SignatureID>
         <SignatureName>DICOM</SignatureName>
-        <SignatureNote>BOF; Offset: 128; Magic bytes: 'DICM'. 
+        <SignatureNote>BOF; Offset: 128; Magic bytes: 'DICM'.
 
 Please see the specification attached with this entry, which states that any format with string 'DCM' at the 128th byte is considered to be a DICOM file format.</SignatureNote>
         <ByteSequence>

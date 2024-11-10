@@ -87,7 +87,7 @@
       <InternalSignature>
         <SignatureID>1249</SignatureID>
         <SignatureName>Windows Portable Executable 32 bit</SignatureName>
-        <SignatureNote>DWORD Signature; 
+        <SignatureNote>DWORD Signature;
 IMAGE_FILE_HEADER FileHeader;
 IMAGE_OPTIONAL_HEADER OptionalHeader;</SignatureNote>
         <ByteSequence>

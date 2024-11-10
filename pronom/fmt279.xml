@@ -12,7 +12,7 @@
       <FormatTypes>Audio</FormatTypes>
       <FormatDisclosure>
       </FormatDisclosure>
-      <FormatDescription>FLAC stands for Free Lossless Audio Codec, an audio format similar to MP3, but lossless, meaning that audio is compressed in FLAC without any loss in quality. 
+      <FormatDescription>FLAC stands for Free Lossless Audio Codec, an audio format similar to MP3, but lossless, meaning that audio is compressed in FLAC without any loss in quality.
 The basic structure of a FLAC stream is: •The four byte string "fLaC"
 •The STREAMINFO metadata block
 •Zero or more other metadata blocks

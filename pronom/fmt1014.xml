@@ -45,7 +45,7 @@
       <InternalSignature>
         <SignatureID>1387</SignatureID>
         <SignatureName>INTERLIS model file 1</SignatureName>
-        <SignatureNote>BOF variable 0-16 TRANSFER{1-1024}MODEL{1-1024} 
+        <SignatureNote>BOF variable 0-16 TRANSFER{1-1024}MODEL{1-1024}
 EOF variable 0-1024 FORMAT{1-124}CODE{1-124)END</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>1656</ByteSequenceID>

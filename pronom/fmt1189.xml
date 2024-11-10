@@ -47,7 +47,7 @@
         <SignatureID>1569</SignatureID>
         <SignatureName>Ogre Mesh XML</SignatureName>
         <SignatureNote>BOF: &lt;mesh&gt;{0-64}&lt;submeshes&gt;{0-8}&lt;submesh
-EOF offset 0-3: &lt;/mesh&gt; - 
+EOF offset 0-3: &lt;/mesh&gt; -
 http://wiki.ogre3d.org/tiki-index.php?page=Ogre+meshxml+DTD</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>1837</ByteSequenceID>

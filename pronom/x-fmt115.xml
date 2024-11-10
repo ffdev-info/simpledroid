@@ -51,7 +51,7 @@
       <InternalSignature>
         <SignatureID>462</SignatureID>
         <SignatureName>Lotus 123 Worksheet 3.0</SignatureName>
-        <SignatureNote>Section Record Type = 0, record length dec 26 = 1A; file format version number = hex 
+        <SignatureNote>Section Record Type = 0, record length dec 26 = 1A; file format version number = hex
 00100400</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>578</ByteSequenceID>

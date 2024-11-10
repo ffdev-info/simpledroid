@@ -48,7 +48,7 @@
       <InternalSignature>
         <SignatureID>505</SignatureID>
         <SignatureName>OS/2 Bitmap 2.0</SignatureName>
-        <SignatureNote>2-byte file type identifier ASCII “BM” at beginning of a 14-byte file header; offset 14 little-endian long integer size of bitmap header (16, 64); offset 26 2-byte little-endian number of bit planes (always 1). 
+        <SignatureNote>2-byte file type identifier ASCII “BM” at beginning of a 14-byte file header; offset 14 little-endian long integer size of bitmap header (16, 64); offset 26 2-byte little-endian number of bit planes (always 1).
 The 2 byte file type identifier BM indicates that the BMP was created by OS/2 or Windows. Windows 3.x, Windows NT, and OS/2 2.x BMP files only vary in the number of fields in the bitmap header and in the interpretation of the compression field. Bitmap headerSize is 12 for Windows 2.x BMP and OS/2 1.x BMP, 40 for Windows 3.x and Windows NT BMP, 12 to 64 for OS/2 2.x BMP, and 108 for Windows 4.x BMP. Only OS/2 2.x bitmaps have Bitmap header size of 16 and 64. If Bitmap header size is 40, only OS/2 Bitmaps can use 24-bit RLE compression on 24-bit pixel bitmaps and only oS/2 bitmaps can use Huffman 1D compression on 1-bit per pixel (monochrome) bitmaps.</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>626</ByteSequenceID>

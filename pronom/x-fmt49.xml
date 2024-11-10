@@ -16,7 +16,7 @@
 •        DWF metadata files – XML files that contain information pertaining to metadata and structure (author, title, creation time, section dependencies, section ordering, resource file descriptions, roles, MIME types, etc.) and pertaining to the section (page information, design metadata, etc.).  The structural metadata is used to create logical objects (collections of files to represent a part or page, etc.).
 •        Resource files – media or other content files that are referenced from the package/section metadata and are usually presentations of design data in various formats (ZGL, W2D, JPG, PNG, AVI, XML, TXT, DOC, etc.)
 A DWF package must meet the following requirements:
-•        The first 12 bytes of the physical package file must contain the DWF version header. 
+•        The first 12 bytes of the physical package file must contain the DWF version header.
 •        A manifest.xml file at the root of the zip archive that complies to the manifest.xsd schema
 •        File contents logically organized into sections, one for each component of the composite design.
 •        At least one resource file.

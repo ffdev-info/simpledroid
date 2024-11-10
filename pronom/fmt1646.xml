@@ -45,7 +45,7 @@ http://fileformats.archiveteam.org/wiki/JWL</FormatNote>
       <InternalSignature>
         <SignatureID>1984</SignatureID>
         <SignatureName>Roxio Label Creator Project File v8-11</SignatureName>
-        <SignatureNote>BOF; Offset: 0; Magic Bytes: 'R.O.X.I.' 
+        <SignatureNote>BOF; Offset: 0; Magic Bytes: 'R.O.X.I.'
 
 EOF; Offset: 109 - 120; Magic bytes; 'ÿþÿ.A.r.i.a.l'</SignatureNote>
         <ByteSequence>

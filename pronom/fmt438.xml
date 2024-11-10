@@ -11,7 +11,7 @@
       </FormatFamilies>
       <FormatTypes>Image (Raster)</FormatTypes>
       <FormatDisclosure>Full</FormatDisclosure>
-      <FormatDescription>The Digital Negative (DNG) Specification describes a non-proprietary file format for storing camera raw files that can be used by a wide range of hardware and software vendors.  DNG is an extension of the TIFF 6.0 format, and is compatible with the TIFF-EP standard.  
+      <FormatDescription>The Digital Negative (DNG) Specification describes a non-proprietary file format for storing camera raw files that can be used by a wide range of hardware and software vendors.  DNG is an extension of the TIFF 6.0 format, and is compatible with the TIFF-EP standard.
 This version, published June 2009, added various improvements, but the major change was to introduce "Opcodes". An Opcode and any associated parameters identifies a specific process to be applied to some or all of the raw image data during the conversion process.</FormatDescription>
       <BinaryFileFormat>
       </BinaryFileFormat>

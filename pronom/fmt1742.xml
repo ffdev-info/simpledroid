@@ -58,7 +58,7 @@ https://syntheway.com/Apple_HFS_Hierarchical_File_System_HFS_Plus_Mac_OS_X.htm</
       <InternalSignature>
         <SignatureID>2082</SignatureID>
         <SignatureName>Hierarchical File System Plus, sig n.1</SignatureName>
-        <SignatureNote>BOF; Offset: 1024; Magic Bytes:  0x482B0004 
+        <SignatureNote>BOF; Offset: 1024; Magic Bytes:  0x482B0004
 &amp;
 EOF; Offset: 1024; Magic Bytes:  0x482B0004</SignatureNote>
         <ByteSequence>
@@ -91,7 +91,7 @@ EOF; Offset: 1024; Magic Bytes:  0x482B0004</SignatureNote>
       <InternalSignature>
         <SignatureID>2083</SignatureID>
         <SignatureName>Hierarchical File System Plus, sig n.2</SignatureName>
-        <SignatureNote>BOF; Offset: 1024; Magic Bytes:  0x48580005 
+        <SignatureNote>BOF; Offset: 1024; Magic Bytes:  0x48580005
 &amp;
 EOF; Offset: 1024; Magic Bytes:  0x48580005</SignatureNote>
         <ByteSequence>

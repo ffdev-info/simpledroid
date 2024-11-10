@@ -46,7 +46,7 @@
       <InternalSignature>
         <SignatureID>1484</SignatureID>
         <SignatureName>Uuencoded File</SignatureName>
-        <SignatureNote>BOF: 'begin '&lt;unix permissions mode&gt; ' ' &lt;file name&gt; newline character. 
+        <SignatureNote>BOF: 'begin '&lt;unix permissions mode&gt; ' ' &lt;file name&gt; newline character.
 EOF, max offset 2: newline character 'end'</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>1745</ByteSequenceID>

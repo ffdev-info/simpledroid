@@ -51,7 +51,7 @@
       <InternalSignature>
         <SignatureID>1040</SignatureID>
         <SignatureName>XMF</SignatureName>
-        <SignatureNote>BOF: XMF_ 
+        <SignatureNote>BOF: XMF_
 At this time the XMF signature does not distinguish between different XMF subtypes, with the exception of Mobile XMF.</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>1281</ByteSequenceID>

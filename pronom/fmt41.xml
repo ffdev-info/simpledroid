@@ -110,7 +110,7 @@ https://web.archive.org/web/20221015163305/https://en.wikipedia.org/wiki/JPEG</F
       <InternalSignature>
         <SignatureID>697</SignatureID>
         <SignatureName>Photoshop JPEG</SignatureName>
-        <SignatureNote>BOF: SOI marker (FF|D8), APP14 - Photoshop Segment Marker (FF|ED), segment size {2}, Photoshop identification string, in ASCII: Photoshop 3.0. 
+        <SignatureNote>BOF: SOI marker (FF|D8), APP14 - Photoshop Segment Marker (FF|ED), segment size {2}, Photoshop identification string, in ASCII: Photoshop 3.0.
 EOF: EOI marker (FF|D9) with a large offset due to the amount of photoshop metadata seen after the end of image marker in sample files.</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>868</ByteSequenceID>

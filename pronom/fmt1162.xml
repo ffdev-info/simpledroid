@@ -46,7 +46,7 @@
       <InternalSignature>
         <SignatureID>1544</SignatureID>
         <SignatureName>Folio Flat File</SignatureName>
-        <SignatureNote>BOF, offset 0-256: , both of 
+        <SignatureNote>BOF, offset 0-256: , both of
 '&lt;CM&gt;' and 'Folio,FFF'</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>1809</ByteSequenceID>

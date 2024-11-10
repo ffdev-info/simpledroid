@@ -81,7 +81,7 @@
       <InternalSignature>
         <SignatureID>523</SignatureID>
         <SignatureName>RTF 1.8</SignatureName>
-        <SignatureNote>\rtf control word, \ansicpg control word, followed by &lt;deffont&gt; declaration the following control word 
+        <SignatureNote>\rtf control word, \ansicpg control word, followed by &lt;deffont&gt; declaration the following control word
 \lsdstimax</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>645</ByteSequenceID>

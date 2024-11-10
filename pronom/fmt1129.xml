@@ -49,7 +49,7 @@
       <InternalSignature>
         <SignatureID>1511</SignatureID>
         <SignatureName>PDF 2.0</SignatureName>
-        <SignatureNote>PDF 2.0 allows an arbitrary amount of information to appear before the PDF 2.0 data starts. For now we are setting a max offset of 4096 bytes from the BOF before we expect to see the %PDF-2.0 tag as this should encompass most use-cases and also maintain processing efficiency for any identification tools using PRONOM data. If you find this offset is inadequate please contact the PRONOM team. Also seeking EOF sequence  %%EOF within final 1024 bytes. 
+        <SignatureNote>PDF 2.0 allows an arbitrary amount of information to appear before the PDF 2.0 data starts. For now we are setting a max offset of 4096 bytes from the BOF before we expect to see the %PDF-2.0 tag as this should encompass most use-cases and also maintain processing efficiency for any identification tools using PRONOM data. If you find this offset is inadequate please contact the PRONOM team. Also seeking EOF sequence  %%EOF within final 1024 bytes.
 
 This signature cannot currently identify files that were incrementally saved to PDF 2.0 from a previous PDF version (for example PDF 1.7), and this scenario will currently return an identification for the orignal format. Please contact the PRONOM team if you can assist with developing a signature that can account for such a use-case.</SignatureNote>
         <ByteSequence>

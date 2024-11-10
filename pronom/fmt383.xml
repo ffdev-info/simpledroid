@@ -13,7 +13,7 @@
       <FormatTypes>Image (Raster)</FormatTypes>
       <FormatDisclosure>
       </FormatDisclosure>
-      <FormatDescription>The VICAR  image file format is used primarily for storing planetary image data collected by both interplanetary spacecraft and Earth-based stations. Many astronomical and astrophysical organizations use and support the VICAR format. 
+      <FormatDescription>The VICAR  image file format is used primarily for storing planetary image data collected by both interplanetary spacecraft and Earth-based stations. Many astronomical and astrophysical organizations use and support the VICAR format.
 Full specifications available at http://www-mipl.jpl.nasa.gov/external/VICAR_file_fmt.pdf</FormatDescription>
       <BinaryFileFormat>Text</BinaryFileFormat>
       <ByteOrders>Little-endian (Intel)</ByteOrders>

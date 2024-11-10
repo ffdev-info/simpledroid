@@ -11,7 +11,7 @@
       </FormatFamilies>
       <FormatTypes>GIS, Image (Raster)</FormatTypes>
       <FormatDisclosure>Full</FormatDisclosure>
-      <FormatDescription>The Lidar Data Exchange Format is a binary file format for the interchange of LIDAR (Light Detection and Ranging) optical remote sensing data. 
+      <FormatDescription>The Lidar Data Exchange Format is a binary file format for the interchange of LIDAR (Light Detection and Ranging) optical remote sensing data.
 Specifications available at http://www.asprs.org/Committee-General/LASer-LAS-File-Format-Exchange-Activities.html</FormatDescription>
       <BinaryFileFormat>Binary</BinaryFileFormat>
       <ByteOrders>Little-endian (Intel)</ByteOrders>

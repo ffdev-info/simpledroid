@@ -50,7 +50,7 @@
       <InternalSignature>
         <SignatureID>944</SignatureID>
         <SignatureName>SAS Data (Windows) 9.1</SignatureName>
-        <SignatureNote>BOF: 32 byte binary magic {7} 0x32 = Windows {116} 'DATA' {53-61} '9.01'. 
+        <SignatureNote>BOF: 32 byte binary magic {7} 0x32 = Windows {116} 'DATA' {53-61} '9.01'.
 Signature based extensively on unofficial description of DATA format, plus a wide variety of format samples: https://cran.r-project.org/web/packages/sas7bdat/vignettes/sas7bdat.pdf</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>1169</ByteSequenceID>

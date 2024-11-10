@@ -49,7 +49,7 @@
       <InternalSignature>
         <SignatureID>1318</SignatureID>
         <SignatureName>Mobile XMF</SignatureName>
-        <SignatureNote>BOF: magic: XMF_ version: 2.00, XmfFileTypeID: 0x00000002 
+        <SignatureNote>BOF: magic: XMF_ version: 2.00, XmfFileTypeID: 0x00000002
 Specification: https://www.midi.org/specifications/item/xmf-specification-all</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>1593</ByteSequenceID>

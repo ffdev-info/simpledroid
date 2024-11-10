@@ -28,8 +28,8 @@
       <ProvenanceDescription>11/2023 (v.115)- Format type changed to GIS and max-offset modified for BOF signature to allow for more exact signature identification. Internally researched</ProvenanceDescription>
       <LastUpdatedDate>14 Nov 2023</LastUpdatedDate>
       <FormatNote>http://avce00.maptools.org/docs/v7_bin_cover.html#ARC.DAT
- 
-http://webhelp.esri.com/arcgisdesktop/9.2/index.cfm?TopicName=How_coverages_are_stored 
+
+http://webhelp.esri.com/arcgisdesktop/9.2/index.cfm?TopicName=How_coverages_are_stored
 
 https://support.esri.com/en/technical-article/000008526
 

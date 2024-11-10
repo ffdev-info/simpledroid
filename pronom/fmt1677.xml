@@ -53,7 +53,7 @@
       <InternalSignature>
         <SignatureID>2011</SignatureID>
         <SignatureName>Microsoft Office File List</SignatureName>
-        <SignatureNote>BOF Absolute from beginning of file, magic bytes &lt;xml xmlns:o="urn:schemas-microsoft-com:office:office"&gt; &lt;o:MainFile Href=".. 
+        <SignatureNote>BOF Absolute from beginning of file, magic bytes &lt;xml xmlns:o="urn:schemas-microsoft-com:office:office"&gt; &lt;o:MainFile Href="..
 EOF Absolute from beginning of file, magic bytes: &lt;/xml&gt;</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>2335</ByteSequenceID>

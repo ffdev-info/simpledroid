@@ -28,7 +28,7 @@
       <ProvenanceDescription>
       </ProvenanceDescription>
       <LastUpdatedDate>28 Oct 2022</LastUpdatedDate>
-      <FormatNote>A DOS compressed file will be named file.**_, so a DOS compressed .exe will be named 'file'.ex_, a DOS compressed .jpg will be named 'file'.jp_. 
+      <FormatNote>A DOS compressed file will be named file.**_, so a DOS compressed .exe will be named 'file'.ex_, a DOS compressed .jpg will be named 'file'.jp_.
 
 https://www.cabextract.org.uk/libmspack/doc/szdd_kwaj_format.html</FormatNote>
       <FormatRisk>

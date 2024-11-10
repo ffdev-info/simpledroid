@@ -69,7 +69,7 @@ https://docs.microsoft.com/en-us/windows/win32/imapi/disc-formats</FormatNote>
         <SignatureName>UDF-ISO 9660 Bridge Disc</SignatureName>
         <SignatureNote>BOF; Offset: 32768; Max Offset: 70468; Magic Bytes:  0x4344303031, then wildcard bytes between 1 to 16384, followed by 0xFF4344303031
 
-&amp; 
+&amp;
 
 BOF; Offset: 32768; Max Offset: 70468; Magic Bytes:  0x00424541303101, then an exact of 2041 wildcard bytes, followed by 0x004E535230, then either 0x32 or 33 followed by 0x01</SignatureNote>
         <ByteSequence>

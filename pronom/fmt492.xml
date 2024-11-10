@@ -50,7 +50,7 @@
       <InternalSignature>
         <SignatureID>765</SignatureID>
         <SignatureName>PDF/X-5n</SignatureName>
-        <SignatureNote>BOF: %PDF-1.(0-7). Specification is based on 1.6,  however doesn't specifically preclude other versions. 
+        <SignatureNote>BOF: %PDF-1.(0-7). Specification is based on 1.6,  however doesn't specifically preclude other versions.
 &lt;pdfxid:GTS_PDFXVersion&gt;PDF/X-5n&lt;/pdfxid:GTS_PDFXVersion&gt;</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>964</ByteSequenceID>

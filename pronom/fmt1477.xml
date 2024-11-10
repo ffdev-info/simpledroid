@@ -12,9 +12,9 @@
       <FormatTypes>Text (Mark-up)</FormatTypes>
       <FormatDisclosure>
       </FormatDisclosure>
-      <FormatDescription>The Text Encoding Initiative Guidelines provide a methodology for encoding textual content for a wide variety of academic and publishing purposes and repurposes. P5 is based on XML. 
+      <FormatDescription>The Text Encoding Initiative Guidelines provide a methodology for encoding textual content for a wide variety of academic and publishing purposes and repurposes. P5 is based on XML.
 
-Conceptually, TEI is a sibling of HTML which focuses on textual semantics rather than display. 
+Conceptually, TEI is a sibling of HTML which focuses on textual semantics rather than display.
 
 Note that TEI permits customisations and some may mean that the file no longer matches the attached signatures. This is especially the case where TEI is fragmented, embedded within other XML or when other XML namespaces are used.
 

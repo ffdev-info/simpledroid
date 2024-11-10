@@ -13,7 +13,7 @@
       <FormatTypes>Image (Raster)</FormatTypes>
       <FormatDisclosure>
       </FormatDisclosure>
-      <FormatDescription>XL-Paint is a graphic format used for storing images created by XL-Paint program, a program used for the Atari 8-bit family of computers, introduced in 1979. It uses .raw file extension, files begin with ASCII "XLPB" and are either 792 or 15372 bytes long. 
+      <FormatDescription>XL-Paint is a graphic format used for storing images created by XL-Paint program, a program used for the Atari 8-bit family of computers, introduced in 1979. It uses .raw file extension, files begin with ASCII "XLPB" and are either 792 or 15372 bytes long.
 
 The Atari 8-bit family is a series of 8-bit home computers introduced by Atari, Inc. All machines are based on the MOS Technology 6502 CPU running at 1.79 MHz, and were the first home computers designed with custom coprocessor chips.</FormatDescription>
       <BinaryFileFormat>

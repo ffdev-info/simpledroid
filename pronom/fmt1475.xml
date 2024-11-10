@@ -12,12 +12,12 @@
       <FormatTypes>Text (Mark-up)</FormatTypes>
       <FormatDisclosure>
       </FormatDisclosure>
-      <FormatDescription>The Text Encoding Initiative Guidelines provide a methodology for encoding textual content for a wide variety of academic and publishing purposes and repurposes. P4 is serialised as XML. 
-Conceptually, TEI is a sibling of HTML which focuses on textual semantics rather than display. 
+      <FormatDescription>The Text Encoding Initiative Guidelines provide a methodology for encoding textual content for a wide variety of academic and publishing purposes and repurposes. P4 is serialised as XML.
+Conceptually, TEI is a sibling of HTML which focuses on textual semantics rather than display.
 
 Note that TEI permits customisations and some may mean that the file no longer matches the attached signatures. This is especially the case where TEI is fragmented, embedded within other XML or when other XML namespaces are used.
 
-Information on how to convert TEI P4 to TEI P5 can be found at https://www.tei-c.org/Vault/P4/migrate.html and a script at https://www.tei-c.org/Vault/P4/p4top5.xsl Such automated conversion is not guaranteed to be lossless, particularly when the TEI has been customised. 
+Information on how to convert TEI P4 to TEI P5 can be found at https://www.tei-c.org/Vault/P4/migrate.html and a script at https://www.tei-c.org/Vault/P4/p4top5.xsl Such automated conversion is not guaranteed to be lossless, particularly when the TEI has been customised.
 
 P4 differs from the proceeding P3 version by being in XML rather than in SGML</FormatDescription>
       <BinaryFileFormat>

@@ -50,7 +50,7 @@
       <InternalSignature>
         <SignatureID>1376</SignatureID>
         <SignatureName>SAS Data (Unix) 8.2</SignatureName>
-        <SignatureNote>BOF: 32 byte binary magic {7} 0x31 = Unix {116} 'DATA' {53-61} '8.02'. 
+        <SignatureNote>BOF: 32 byte binary magic {7} 0x31 = Unix {116} 'DATA' {53-61} '8.02'.
 Signature based extensively on unofficial description of DATA format, plus a wide variety of format samples: https://cran.r-project.org/web/packages/sas7bdat/vignettes/sas7bdat.pdf</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>1645</ByteSequenceID>

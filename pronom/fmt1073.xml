@@ -13,7 +13,7 @@
       <FormatTypes>Text (Structured)</FormatTypes>
       <FormatDisclosure>
       </FormatDisclosure>
-      <FormatDescription>Google document link files are text based files written in the format of JSON (JavaScript Object Notation). They 
+      <FormatDescription>Google document link files are text based files written in the format of JSON (JavaScript Object Notation). They
 
 provide a URL link to the Google document held in Google Drive.</FormatDescription>
       <BinaryFileFormat>

@@ -46,7 +46,7 @@
         <SignatureID>1255</SignatureID>
         <SignatureName>Variant Call Format v1</SignatureName>
         <SignatureNote>BOF: ##fileformat=VCFv1
-We currently only distinguish by major version number, but it may be desireable to distinguish between minor version too. 
+We currently only distinguish by major version number, but it may be desireable to distinguish between minor version too.
 
 Specifications: https://github.com/samtools/hts-specs</SignatureNote>
         <ByteSequence>

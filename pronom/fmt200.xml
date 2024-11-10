@@ -12,7 +12,7 @@
       <FormatTypes>Video</FormatTypes>
       <FormatDisclosure>
       </FormatDisclosure>
-      <FormatDescription>MXF is a media container format which supports a number of different streams of coded "essence", encoded with any of a variety of codecs, together with a metadata wrapper which describes the material contained within the MXF file. 
+      <FormatDescription>MXF is a media container format which supports a number of different streams of coded "essence", encoded with any of a variety of codecs, together with a metadata wrapper which describes the material contained within the MXF file.
 
 MXF allows for different degrees of complexity within the wrapper, which are standardised and defined as Operational Patterns, and this may be a consideration for an institution considering preserving the format, hence the separation of these Operational Patterns into separate PUIDs.
 

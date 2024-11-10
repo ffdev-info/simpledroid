@@ -13,7 +13,7 @@
       <FormatTypes>Text (Structured)</FormatTypes>
       <FormatDisclosure>
       </FormatDisclosure>
-      <FormatDescription>A CDX file consists of individual lines of text, each of which summarizes a single web document. 
+      <FormatDescription>A CDX file consists of individual lines of text, each of which summarizes a single web document.
 The first line in the file is a legend for interpreting the data, and the following lines contain the data for referencing the corresponding pages within the host. The CDX signatures use a field delimiter character which is assumed to be a space character, however please contact the PRONOM team should you encounter CDX index files where the delimiter is different.</FormatDescription>
       <BinaryFileFormat>
       </BinaryFileFormat>

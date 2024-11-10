@@ -45,7 +45,7 @@
       <InternalSignature>
         <SignatureID>1390</SignatureID>
         <SignatureName>Stata DTA 110</SignatureName>
-        <SignatureNote>This signature is based on observation from a range of samples and inference from a later specification. This signature could be improved with a better understanding of the formal specification. 
+        <SignatureNote>This signature is based on observation from a range of samples and inference from a later specification. This signature could be improved with a better understanding of the formal specification.
 
 'n' 0x(01|02)=(big|little) endianness filetype (0x01) 0x00 at position 109</SignatureNote>
         <ByteSequence>

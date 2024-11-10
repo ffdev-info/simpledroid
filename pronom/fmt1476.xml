@@ -12,9 +12,9 @@
       <FormatTypes>Text (Mark-up)</FormatTypes>
       <FormatDisclosure>
       </FormatDisclosure>
-      <FormatDescription>The Text Encoding Initiative Guidelines (TEI) provide a methodology for encoding textual content for a wide variety of academic and publishing purposes and repurposes. TEI P5 is serialised as XML. 
+      <FormatDescription>The Text Encoding Initiative Guidelines (TEI) provide a methodology for encoding textual content for a wide variety of academic and publishing purposes and repurposes. TEI P5 is serialised as XML.
 
-Conceptually, TEI is a sibling of HTML which focuses on textual semantics rather than display. 
+Conceptually, TEI is a sibling of HTML which focuses on textual semantics rather than display.
 
 The ‘ODD’ file extension is used when TEI is being used as a literate programming language for XML schemas, modern TEI guidelines are written in this form of the language, HTML, RNG, RNC and DTD files are then generated from the TEI.
 

@@ -21,7 +21,7 @@ The document is an OLE2 compound that contains a number of files:
 
 EncryptionInfo - This file contains information used by the Office-compatible application to decrypt the encrypted package. There are multiple variants of this file, as described in 2.3.4.5, and 2.3.4.6 of the format specification.
 
-EncryptedPackage - This file contains the whole of the encrypted document. 
+EncryptedPackage - This file contains the whole of the encrypted document.
 
 DataSpaces folder (and sub-files) - This structure associates protected content with data space definitions. The data space definition, in turn, describes the series of transforms that must be applied to that protected content to restore it to its original form.
 

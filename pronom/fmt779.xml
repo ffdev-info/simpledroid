@@ -61,7 +61,7 @@
       <InternalSignature>
         <SignatureID>1145</SignatureID>
         <SignatureName>pcap Big Endian</SignatureName>
-        <SignatureNote>0xa1b2c3d4 indicates that the capture reader has the same byte order as the capture writer. 
+        <SignatureNote>0xa1b2c3d4 indicates that the capture reader has the same byte order as the capture writer.
 0xd4c3b2a1 indicates that the reader has a different byte order from the writer.</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>1396</ByteSequenceID>
@@ -80,7 +80,7 @@
       <InternalSignature>
         <SignatureID>1146</SignatureID>
         <SignatureName>pcap Little Endian</SignatureName>
-        <SignatureNote>0xa1b2c3d4 indicates that the capture reader has the same byte order as the capture writer. 
+        <SignatureNote>0xa1b2c3d4 indicates that the capture reader has the same byte order as the capture writer.
 0xd4c3b2a1 indicates that the reader has a different byte order from the writer.</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>1397</ByteSequenceID>

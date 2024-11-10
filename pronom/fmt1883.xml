@@ -56,7 +56,7 @@
       <InternalSignature>
         <SignatureID>2224</SignatureID>
         <SignatureName>OPML File v.2</SignatureName>
-        <SignatureNote>BOF, offset 0-86, magic bytes:&lt;opml{0-90}version="2.0"{0-60}&gt;{0-5}&lt;head{0-69}&gt;{0-9}&lt;title&gt;{0-300}&lt;/title&gt;{0-290}&lt;/head&gt;	
+        <SignatureNote>BOF, offset 0-86, magic bytes:&lt;opml{0-90}version="2.0"{0-60}&gt;{0-5}&lt;head{0-69}&gt;{0-9}&lt;title&gt;{0-300}&lt;/title&gt;{0-290}&lt;/head&gt;
 EOF, offset 0-4:&lt;/body&gt;(0-4)&lt;/opml&gt;</SignatureNote>
         <ByteSequence>
           <ByteSequenceID>2579</ByteSequenceID>
