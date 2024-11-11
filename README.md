@@ -13,6 +13,12 @@ opportunities for testing and customization. It also makes future PRONOM
 development effort easier by reducing the barriers needed to output a compatible
 signature file.
 
+## Reference file
+
+There is a reference signature file in the [reference][ref-1] folder.
+
+[ref-1]: https://github.com/ross-spencer/simpledroid/tree/main/reference
+
 ## More information
 
 More information will appear here in the fullness of time. Take a look at
