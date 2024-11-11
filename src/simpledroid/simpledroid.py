@@ -155,13 +155,52 @@ def create_many_to_one_byte_sequence(internal_signatures: list[InternalSignature
     return internal_signature.strip()
 
 
+def calculate_variable_off_bof(item: ByteSequence):
+    """Given variable offsets, calculate the correct syntax."""
+    seq = item.value
+    if (
+        item.min_off != ""
+        and int(item.min_off) > 0
+        and item.max_off != ""
+        and int(item.max_off) > 0
+    ):
+        seq = f"{{{item.min_off}-{int(item.min_off)+int(item.max_off)}}}{seq}"
+    elif item.max_off != "" and int(item.max_off) > 0:
+        seq = f"{{0-{item.max_off}}}{seq}"
+    elif item.min_off != "" and int(item.min_off) > 0:
+        seq = f"{{{item.min_off}}}{seq}"
+    return seq
+
+
+def calculate_variable_off_eof(item: ByteSequence):
+    """Given variable offsets, calculate the correct syntax."""
+    seq = item.value
+    if (
+        item.min_off != ""
+        and int(item.min_off) > 0
+        and item.max_off != ""
+        and int(item.max_off) > 0
+    ):
+        seq = f"{seq}{{{item.min_off}-{int(item.min_off)+int(item.max_off)}}}"
+    elif item.max_off != "" and int(item.max_off) > 0:
+        seq = f"{seq}{{0-{item.max_off}}}"
+    elif item.min_off != "" and int(item.min_off) > 0:
+        seq = f"{seq}{{{item.min_off}}}"
+    return seq
+
+
 def create_one_to_many_byte_sequence(byte_sequences: list[ByteSequence]):
     """Create a byte sequence object."""
     byte_sequence = ""
     for item in byte_sequences:
+        seq = item.value
+        if item.pos.startswith("EOF"):
+            seq = calculate_variable_off_eof(item)
+        elif item.pos.startswith("BOF"):
+            seq = calculate_variable_off_bof(item)
         byte_sequence = f"""
 {byte_sequence.strip()}
-    <ByteSequence Reference=\"{item.pos}\" Sequence=\"{item.value}\" MinOffset=\"{item.min_off}\" MaxOffset=\"{item.max_off}\"/>
+    <ByteSequence Reference=\"{item.pos}\" Sequence=\"{seq}\" MinOffset=\"{item.min_off}\" MaxOffset=\"{item.max_off}\"/>
         """
     return byte_sequence.strip()
 
