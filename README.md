@@ -19,6 +19,15 @@ There is a reference signature file in the [reference][ref-1] folder.
 
 [ref-1]: https://github.com/ross-spencer/simpledroid/tree/main/reference
 
+## Building your own
+
+You need PRONOM's XML reports to build your own signature file. The best way
+to access this information is from Richard Lehane's [builder][builder-1]. Its
+zipped releases containing versioned reports, and their matching skeleton files
+for testing.
+
+[builder-1]: https://github.com/richardlehane/builder/releases/tag/v119a
+
 ## More information
 
 More information will appear here in the fullness of time. Take a look at
