@@ -228,7 +228,6 @@ def create_file_format_collection(fmt: list[Format]):
     ```
 
     """
-
     EXT: Final[str] = "File extension"
     internal_sigs = [
         f"<InternalSignatureID>{sig.id}</InternalSignatureID>"
@@ -243,9 +242,8 @@ def create_file_format_collection(fmt: list[Format]):
         f"<HasPriorityOverFileFormatID>{priority.id}</HasPriorityOverFileFormatID>"
         for priority in fmt.priorities
     ]
-
     ff = f"""
-<FileFormat ID=\"{fmt.id}\" Name=\"{fmt.name}\" PUID=\"{fmt.puid}\" Version="{fmt.version}" MIMEType=\"{fmt.mime}\">
+<FileFormat ID=\"{fmt.id}\" Name=\"{fmt.name}\" PUID=\"{fmt.puid}\" Version="{fmt.version}" MIMEType=\"{fmt.mime}\" FormatType=\"{fmt.classification}\" >
     {"".join(internal_sigs).strip()}
     {"".join(external_sigs).strip()}
     {"".join(priorities).strip()}
