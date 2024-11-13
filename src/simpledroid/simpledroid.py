@@ -546,8 +546,8 @@ async def main():
 
     parser = argparse.ArgumentParser(
         prog="simpledroid",
-        description="create a Simplified DROID signature file from a PRONOM export",
-        epilog="for more information visit https://github.com/ross-spencer/simpledroid",
+        description="create a complete simplified DROID signature file from a PRONOM export",
+        epilog="for more information visit https://github.com/ffdev-info/simpledroid",
     )
     parser.add_argument(
         "--pronom",
